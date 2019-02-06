@@ -18,10 +18,10 @@ function whileLoop(no){
 }
 
 function doWhileLoop(int){
-  let numb = 0
+  let i = 0
   function incrementVariable(){
-  numb = numb++
-  return numb;
+  i = i++
+  return i;
   }
   do {
     console.log('I run once regardless.')
